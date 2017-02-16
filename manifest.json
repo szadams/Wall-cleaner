@@ -1,0 +1,19 @@
+{
+  "name" : "Delete elements liked by someone on Facebook.",
+  "version" : "0.1",
+  "description" : "Cleans Facebook wall of elements liked by your friends.",
+  "background" : {
+    "scripts": ["cleanFb.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "cleanerIcon-48.png",
+    "default_title" : "Clean Facebook!"
+  },
+  "permissions": [ "declarativeContent" ],
+  "icons" : {
+    "48" : "cleanerIcon-48.png"
+  },
+  "manifest_version": 2
+}
